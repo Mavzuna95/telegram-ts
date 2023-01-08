@@ -1,0 +1,53 @@
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 400px;
+    border-right: 2px solid rgb(33, 32, 32);
+    background-color: rgb(46, 45, 45);
+}
+.logoff {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    width: 400px;
+    background-color: rgb(143, 147, 151);
+   }
+.logoff:hover {
+    color: rgb(20, 96, 115);
+    background-color: rgb(207, 205, 205);
+   }
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    height: 10%;
+  }
+.contact:hover {
+    background-color: rgb(207, 205, 205);
+    color: rgb(29, 142, 148);
+    /* border-radius: 5px; */
+  }
+.contact-img {
+    background-color: rgb(117, 114, 114);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 10px 20px 5px 20px;
+  }
+.contact-name {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+.contact-lastname {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  

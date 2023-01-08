@@ -1,0 +1,54 @@
+.registr-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(8, 200, 253);
+ 
+  }
+  div>.form-list-registr {
+   background: white;
+   width: 320px;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 55px;
+   margin-top: 100px;
+  }
+  .input-registr {
+   border: none;
+   border-radius: 8px;
+   margin-bottom: 5px;
+   padding: 5px;
+   width: 300px;
+   background-color: rgb(185, 228, 245);
+   transition: all .4s ease;
+  
+  }
+  .input-registr::placeholder {
+   color: rgb(19, 18, 18);
+  }
+  .input-registr:hover,.auth-logo:hover {
+   transform: scale(1.05);
+  
+  }
+  .button-registr {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 310px;
+    transition: all .4s ease;
+    background-color: rgb(8, 200, 253);
+    color: white;
+   }
+   .button-registr:hover {
+    color: rgb(6, 218, 255);
+    transform: scale(1.05);
+   }
+   svg {
+    margin-left: 110px;
+  }
+  .telegram-title {
+    font-size: 900;
+    margin-left: 50px;
+  }

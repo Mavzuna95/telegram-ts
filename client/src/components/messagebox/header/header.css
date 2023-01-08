@@ -1,0 +1,20 @@
+.header {
+    min-height: 10%;
+    background-color: rgb(207, 205, 205);
+    color: rgb(29, 142, 148);
+  }
+  .header-contact {
+    display: flex;
+  }
+  .header-name {
+    margin-right: 10px;
+  }
+  .header-btn {
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+    background-color: rgb(207, 205, 205);
+  }

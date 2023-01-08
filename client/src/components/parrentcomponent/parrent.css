@@ -1,0 +1,19 @@
+.parrent {
+    display: flex;
+  }
+  .choosen {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 610px;
+    width: 100%;
+    background-color: grey;
+    border-left: 2px solid rgb(2, 2, 2);
+  }
+  .choosen>h3 {
+    padding: 10px;
+    margin-top: 0;
+    background-color: rgb(207, 205, 205);
+    color: rgb(29, 142, 148);
+  }
+  

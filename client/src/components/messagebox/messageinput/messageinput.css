@@ -1,0 +1,19 @@
+.input-section {
+    background-color: rgb(172, 168, 168);
+    height: 9%;
+    padding-top: 5px;
+    min-width: 100%;
+  }
+  .message-input {
+    min-width: 58%;
+    min-height: 30px;
+    margin-right: 10px;
+  }
+  .message-button {
+    background-color: rgb(95, 100, 101);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    font-size: large;
+  }
